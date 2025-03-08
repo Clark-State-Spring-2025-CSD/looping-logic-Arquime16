@@ -13,3 +13,23 @@
 #13
 #14
 #FizzBuzz
+
+print("Welcome to the FizzBuzz program!")
+print("This program will run through the integers 1 to 25 and print the following:")
+
+for i in range(1, 26):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+
+
+
+if __name__ == "__main__":
+    pass
+
+#Flowchart is in the repo as fizzbuzz.drawio
